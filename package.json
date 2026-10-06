@@ -1,0 +1,24 @@
+{
+  "name": "mfi-team-portfolio-manager",
+  "version": "1.0.0",
+  "description": "MFI POD project tracker: shared team website with MOM notes, Excel export, delay alerts and a 6 PM daily email summary.",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "node-cron": "^4.6.0",
+    "nodemailer": "^10.0.15"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
+  }
+}

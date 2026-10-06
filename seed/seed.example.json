@@ -1,0 +1,160 @@
+{
+  "overview": {
+    "title": "MFI PROJECT TRACKER",
+    "subtitle": "Workstreams organised by brick (TOFU · MOFU · BOFU) across App, Web and Loan Journey. Replace this sample data by importing your reference workbook (see README).",
+    "channels": [
+      "App",
+      "Web",
+      "Loan Journey"
+    ],
+    "bricks": [
+      {
+        "brick": "TOFU",
+        "label": "Find customers",
+        "cells": [
+          [
+            "Sample app item"
+          ],
+          [
+            "Sample web item"
+          ],
+          [
+            "Sample journey item"
+          ]
+        ]
+      },
+      {
+        "brick": "MOFU",
+        "label": "Help customers apply",
+        "cells": [
+          [
+            "Sample app item"
+          ],
+          [
+            "Sample web item"
+          ],
+          [
+            "Sample journey item"
+          ]
+        ]
+      },
+      {
+        "brick": "BOFU",
+        "label": "Approve & disburse",
+        "cells": [
+          [
+            "Sample app item"
+          ],
+          [
+            "Sample web item"
+          ],
+          [
+            "Sample journey item"
+          ]
+        ]
+      }
+    ],
+    "targetsTitle": "TARGETS",
+    "targets": [
+      [
+        "Target 1",
+        "—",
+        "—",
+        "—"
+      ]
+    ]
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "brick": "TOFU",
+      "channel": "App",
+      "workstream": "Sample workstream",
+      "task": "Sample task. Import your reference workbook to replace this data.",
+      "status": "In Progress",
+      "spoc": "PM",
+      "outcome": "Sample outcome",
+      "ticket": "",
+      "startDate": "",
+      "dueDate": "",
+      "remarks": ""
+    },
+    {
+      "id": 2,
+      "brick": "MOFU",
+      "channel": "Web",
+      "workstream": "Sample workstream",
+      "task": "Second sample task.",
+      "status": "TBD",
+      "spoc": "PM",
+      "outcome": "",
+      "ticket": "",
+      "startDate": "",
+      "dueDate": "",
+      "remarks": ""
+    },
+    {
+      "id": 3,
+      "brick": "BOFU",
+      "channel": "Loan Journey",
+      "workstream": "Sample workstream",
+      "task": "Third sample task.",
+      "status": "Completed",
+      "spoc": "",
+      "outcome": "",
+      "ticket": "",
+      "startDate": "",
+      "dueDate": "",
+      "remarks": ""
+    }
+  ],
+  "dataPrepSteps": [
+    {
+      "label": "1 · Sample step",
+      "text": "Describe the data prep step."
+    }
+  ],
+  "dataCuts": [
+    {
+      "id": 1,
+      "cut": "Sample data cut",
+      "who": "—",
+      "fields": "—",
+      "output": "—",
+      "period": "—",
+      "status": "TBD",
+      "owner": "",
+      "dueDate": "",
+      "remarks": ""
+    }
+  ],
+  "research": [
+    {
+      "heading": "WHAT WE WANTED TO LEARN",
+      "items": [
+        {
+          "label": "Sample",
+          "text": "Research brief content goes here."
+        }
+      ]
+    }
+  ],
+  "scope": [
+    {
+      "heading": "PURPOSE",
+      "items": [],
+      "intro": "Scope content goes here."
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "name": "PM",
+      "role": "Product Manager",
+      "email": "",
+      "pod": true,
+      "dailySummary": true
+    }
+  ],
+  "meetings": []
+}

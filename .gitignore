@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Live tracker data (created at runtime from seed/seed.json) and email previews
+data/
+
+# Secrets: SMTP passwords, team passcode
+.env
+.env.*
+!.env.example
+
+# Logs and OS / editor files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Excel lock files / local downloads
+~$*.xlsx
+*.xlsx
+
+# Internal business data extracted from the reference workbook (repo is public)
+seed/seed.json

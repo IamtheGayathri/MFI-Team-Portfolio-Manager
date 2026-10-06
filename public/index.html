@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MFI Project Tracker</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2317324D'/><path d='M8 22V10l8 7 8-7v12' stroke='%23fff' stroke-width='3' fill='none' stroke-linejoin='round'/></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">M</div>
+      <div>
+        <div class="brand-title">MFI Project Tracker</div>
+        <div class="brand-sub" id="brandSub">Digital journeys · Microfinance POD</div>
+      </div>
+    </div>
+    <div class="top-actions">
+      <label class="whoami">
+        <span>You are</span>
+        <select id="whoami" aria-label="Your name (used for 'updated by')"></select>
+      </label>
+      <a class="btn primary" id="downloadBtn" href="api/export.xlsx" download>
+        <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Download .xlsx
+      </a>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs" role="tablist">
+    <button role="tab" data-tab="dashboard">Dashboard</button>
+    <button role="tab" data-tab="tracker">Project Tracker</button>
+    <button role="tab" data-tab="mom">MOM &amp; Meeting Notes</button>
+    <button role="tab" data-tab="datacuts">Data Cuts</button>
+    <button role="tab" data-tab="overview">Overview &amp; Scope</button>
+    <button role="tab" data-tab="team">Team &amp; Alerts</button>
+  </nav>
+
+  <main id="view" class="view" aria-live="polite">
+    <div class="loading">Loading tracker…</div>
+  </main>
+
+  <div id="modalRoot"></div>
+  <div id="toast" class="toast" role="status" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
